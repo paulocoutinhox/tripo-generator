@@ -1,0 +1,59 @@
+# Operating system and editor state.
+.DS_Store
+._*
+Thumbs.db
+[Dd]esktop.ini
+*.swp
+*.swo
+*~
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/aws.xml
+.idea/**/dataSources/
+.idea/**/dataSources.local.xml
+.vs/
+
+# Private local configuration and credentials.
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+.pypirc
+
+# Runtime output and temporary files.
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+
+# Build output and installed dependencies.
+build/
+dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated models and recovery files.
+assets/*
+!assets/.gitkeep
+*.glb
+*.part
